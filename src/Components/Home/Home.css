@@ -1,0 +1,44 @@
+.homeSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.leftSection {
+  width: 30%;
+  font-size: 2.4rem;
+}
+
+.leftSection .intro {
+  font-size: 1.1rem;
+}
+
+.leftSection .buttons {
+  margin: 10px;
+}
+
+.btn {
+  padding: 8px 15px;
+  background-color: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  color: #1e2167;
+  background-color: #ffc107;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.name {
+  color: #aa6be4;
+}

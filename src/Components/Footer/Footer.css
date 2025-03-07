@@ -1,0 +1,34 @@
+.footer {
+  background-color: #12123e;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links img {
+  height: 20px;
+}
+
+.links img:hover {
+  transform: scale(1.3);
+}
+
+.links ul {
+  display: flex;
+}
+
+.links {
+  max-width: 80vw;
+}
+
+.links li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.copyright {
+  margin-bottom: 10px;
+  color: white;
+}

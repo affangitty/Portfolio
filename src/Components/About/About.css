@@ -1,0 +1,44 @@
+.aboutSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 140vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutSection h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.aboutSection h2 {
+  text-align: center;
+  color: #9c97f1;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.aboutBox {
+  margin: 50px 0;
+  width: 65%;
+  padding: 40px 30px;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: #01013a;
+  box-shadow: 0 0 30px #01013a;
+  transition: transform 0.3s;
+}
+
+.aboutBox img {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 360px;
+  width: 360px;
+}
+
+.aboutBox:hover {
+  transform: scale(1.05);
+}

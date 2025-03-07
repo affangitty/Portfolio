@@ -1,0 +1,44 @@
+.skillsSection .skills {
+  max-width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+
+.skills h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.skill-category {
+  margin-top: 20px;
+}
+
+.skill-category h2 {
+  font-size: 1.8rem;
+  color: #9c97f1;
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category li {
+  display: inline-block;
+  background-color: #1e2167;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.skill-category li:hover {
+  background-color: #0f1146;
+  color: rgb(229, 198, 198);
+  transform: scale(1.1);
+}

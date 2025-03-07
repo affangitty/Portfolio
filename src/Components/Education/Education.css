@@ -1,0 +1,37 @@
+.educationSection {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.educationSection h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-th,
+.table-td {
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-th {
+  background-color: #01013a;
+  font-size: 1.2rem;
+  color: #9c97f1;
+}
+
+.table-th:hover {
+  background-color: #02024b;
+}
+
+td div {
+  font-size: 0.7rem;
+}
